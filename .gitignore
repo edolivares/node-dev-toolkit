@@ -1,0 +1,18 @@
+# Secretos y claves
+.env
+
+# Archivos específicos del módulo de encriptación
+/encrypter/models/*.glb
+/encrypter/models/*.usdz
+/encrypter/encrypted_output/*.bin
+
+# Otros formatos y resultados
+*.obj
+*.mtl
+*.png
+*.jpg
+esculturas.json
+/encrypter/dist/
+
+# Dependencias
+node_modules
