@@ -11,6 +11,7 @@
 *.mtl
 *.png
 *.jpg
+*.txt
 esculturas.json
 /encrypter/dist/
 

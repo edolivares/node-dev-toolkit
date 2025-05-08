@@ -6,10 +6,10 @@ import { fileURLToPath } from 'url';
 import crypto from 'crypto';
 import dotenv from 'dotenv';
 
-dotenv.config({ path: path.resolve(__dirname, '../.env') });
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 const rawKey = process.env.SECRET_KEY;
 
